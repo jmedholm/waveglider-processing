@@ -5,7 +5,7 @@ Updated by: Johan Edholm
 
 Description: This is a template for the metadata configuration file for Waveglider missions. 
 Viewed
-Hi there!
+Hi there! Oh!
 
 It contains placeholders for all the necessary metadata fields that should be filled in for each specific mission. 
 
