@@ -1,0 +1,91 @@
+
+
+{
+    "mission_config": {
+        "mission_name": "WHIRLS Samba 2026",
+        "start_time": "2026-02-17",
+        "end_time": "2026-11-12"
+    },
+    "global_attributes": {
+        "naming_authority": "polargliders.com",
+        "Conventions": "CF-1.10, ACDD-1.3",
+        "standard_name_vocabulary": "CF Standard Name Table v79",
+        "keywords": "trajectory, uncrewed surface vehicle, Waveglider, surface fluxes, oceanography, meteorology, South Atlantic",
+        "featureType": "Trajectory",
+        "cdm_data_type": "Trajectory",
+        "cdm_trajectory_variables": "trajectory",
+        "platform_model": "Waveglider SV3",
+        "platform_type": "uncrewed surface vehicle",
+        "platform_id": "SV3-1170",
+        "platform_name": "Melktert",
+        "creator_name": "Johan Edholm",
+        "creator_email": "johan.edholm@gu.se",
+        "creator_type": "person",
+        "institution": "University of Gothenburg",
+        "publisher_name": "University of Gothenburg",
+        "contributor_name": "Johan Edholm, Sebastiaan Swart, Marcel du Plessis, Mariana Miracca Lage, Vincent Doriot, Solange Coadou, Elisa Carli, André Hoek, Sean Lavis, STS",
+        "contributor_role": "Data Processer / Main Pilot, Principal Investigator, Glider Pilot, Glider Pilot, Glider Pilot, Glider Pilot, Glider Pilot, Lead technician, Technician",
+        "source": "In-situ measurements from Waveglider SV3",
+        "processing_level": "L1 - Automated formatting, raw sensor data",
+        "data_type": "Near Real-Time (NRT)",
+        "license": "Creative Commons Attribution 4.0 (CC-BY-4.0)",
+        "acknowledgement": "Funded by [Insert Grant/Funding Agency here]."
+    },
+    "sensors": {
+        "WXT536": {
+            "vendor_name": "Vaisala",
+            "model_name": "WXT536",
+            "installed_height": 1.0,
+            "calibration_status": "uncalibrated",
+            "calibration_date": "N/A"
+        },
+        "GILL": {
+            "vendor_name": "Gill",
+            "model_name": "R3-50",
+            "installed_height": 1.0,
+            "calibration_status": "calibrated",
+            "calibration_date": "2025-04-25"
+        },
+        "LEGATO": {
+            "vendor_name": "RBR",
+            "model_name": "legato3",
+            "installed_height": -0.25,
+            "calibration_status": "uncalibrated",
+            "calibration_date": "N/A"
+        },
+        "CODA": {
+            "vendor_name": "RBR",
+            "model_name": "coda T.ODO",
+            "installed_height": -0.25,
+            "calibration_status": "uncalibrated",
+            "calibration_date": "N/A"
+        },
+        "CYCLOPS": {
+            "vendor_name": "Turner Designs",
+            "model_name": "Cyclops-7F",
+            "installed_height": -0.25,
+            "calibration_status": "uncalibrated",
+            "calibration_date": "N/A"
+        },
+        "AIRMAR": {
+            "vendor_name": "Airmar",
+            "model_name": "200WX",
+            "installed_height": 0.8,
+            "calibration_status": "uncalibrated",
+            "calibration_date": "N/A"
+        },
+        "ADCP": {
+            "vendor_name": "Teledyne",
+            "model_name": "Workhorse",
+            "installed_height": -0.1,
+            "calibration_status": "uncalibrated",
+            "calibration_date": "N/A"
+        },
+        "WAVES": {
+            "vendor_name": "Insert_Wave_Vendor",
+            "installed_height": 0.0,
+            "calibration_status": "uncalibrated",
+            "calibration_date": "N/A"
+        }
+    }
+}
