@@ -4,7 +4,7 @@ Last updated: 2026-04-22
 Updated by: Johan Edholm
 
 Description: This is a template for the metadata configuration file for Waveglider missions. 
-
+Viewed
 Hi there!
 
 It contains placeholders for all the necessary metadata fields that should be filled in for each specific mission. 
