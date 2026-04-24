@@ -26,7 +26,8 @@ The output NetCDF applies **CF-compliant** attributes to the coordinate variable
 **Latitude / Longitude Attributes:**
 * `standard_name`: `latitude` / `longitude`
 * `units`: `degrees_north` / `degrees_east`
-* `valid_min/max`: `[-90, 90]` / `[-180, 180]`
+* `valid_min`: `-90` / `-180`
+* `valid_max`: `90` / `180`
 * `_FillValue`: `-9999.9`
 
 ## 5. Execution
