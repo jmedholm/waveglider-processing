@@ -15,10 +15,10 @@ Pipeline for merging raw telemetry and AirSea logs into unified NetCDF files. Th
 ## 3. Data Inputs
 | Source File | Source Sensor | Parameters | Format |
 | :--- | :--- | :--- | :--- |
-| `weather_*.json` | Airmar 200WX | GPS, Temp, Pressure, Wind | JSON |
-| `waves_*.json` | Wave Sensor | Hs, Tp, Ta, Dp | JSON |
-| `adcp_*.json` | ADCP | East/North Currents | JSON |
-| `AirSea_Data.csv` | RBR / Coda / Gill | Salinity, O2, Chl-a, Winds | CSV |
+| `waveglider-weather_*.json` | Airmar 200WX | GPS, Temp, Pressure, Wind | JSON |
+| `waveglider-waves_*.json` | Wave Sensor | Hs, Tp, Ta, Dp | JSON |
+| `waveglider-adcp_*.json` | ADCP | East/North Currents | JSON |
+| `Decoded_AirSea_Data.csv` | RBR / Coda / Gill | Salinity, O2, Chl-a, Winds | CSV |
 
 ## 4. Metadata & Compliance
 The output NetCDF applies **CF-compliant** attributes to the coordinate variables:
