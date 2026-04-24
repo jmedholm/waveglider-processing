@@ -10,7 +10,7 @@ Pipeline for merging raw telemetry and AirSea logs into unified NetCDF files. Th
 * **GPS Master:** Uses Airmar weather records (`waveglider-weather`) as the primary spatial reference.
 * **Temporal Alignment:** Resamples all inputs to a 10-minute time vector to harmonize disparate sensor rates.
 * **GPS Interpolation:** Linearly fills GPS gaps for high-frequency sensors (ADCP/AirSea) using the Airmar track as the baseline.
-* **Coordinate Validation:** Enforces strict bounds and a standardized `_FillValue` for Latitude and Longitude.
+* **Coordinate Validation:** Applies standardized `valid_min`/`valid_max` metadata and `_FillValue` settings for Latitude and Longitude.
 
 ## 3. Data Inputs
 | Source File | Source Sensor | Parameters | Format |
